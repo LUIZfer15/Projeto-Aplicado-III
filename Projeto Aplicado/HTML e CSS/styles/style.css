@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Barra de Pesquisa */
+.pesquisa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+    border-style: none;
+    text-align: left;
+    position: relative;
+    left: 1900px;
+    width: 350px;
+    height: 40px;
+    top: -70px;
+    align-items: center;
+}
+
+.lupa {
+    width: 20px;
+    height: 20px;
+}
+
+/* Botões */
+.botoes1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%, -30%);
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 1000px;
+    height: 50px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Icone */
+.icon {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 100px;
+    top: -40px;
+}
+
+.summer{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-60%, -60%);
+}
