@@ -1,88 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body {
-    background-color: black;
-}
-
-/* Icone */
-.icone {
-    position: absolute;
-    top: 10px;
-    left: 100px;
-}
-
-/* Barra de Pesquisa */
-.container-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.container {
-    background-color: rgb(0, 0, 0);
-}
-
-.input-wrapper {
-    width: 300px;
-    height: 40px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-}
-
-.input-wrapper i {
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 8px;
-    left: 8px;
-}
-
-.input-wrapper input {
-    background-color: transparent;
-    border: none;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    position: relative;
-    top: 8px;
-    left: 8px;
-}
-
-.input-wrapper input:focus-visible {
-    outline: none;
+    height: 100h;
+    background-image: url(../img/myclub.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
 }
 
 /* Botões */
-.btn1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row;
+@media screen and (max-width: 1920px) {
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-button {
-    font-size: 20px;
-    width: 300px;
-    height: 50px;
+/* Btn Menu */
+@media screen and (max-width: 1920px) {
+    .menu {
+        font-weight: bold;
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        left: 20%;
+        top: 10%;
+    }
+}
+
+.menu:hover {
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    border-style: none;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-button:hover {
     color: black;
     background-color: white;
     border-radius: 25px;
     cursor: pointer;
 }
 
-.summer {
-    position: relative;
-    top: 500px;
-    left: 500px;
+/* Btn Clubes */
+@media screen and (max-width: 1920px) {
+    .clubes {
+        font-weight: bold;
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        left: 30%;
+        top: 10%;
+    }
+}
+
+.clubes:hover {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Btn Ingressos */
+@media screen and (max-width: 1920px) {
+    .ingressos {
+        font-weight: bold;
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: absolute;
+        left: 40%;
+        top: 10%;
+    }
+}
+
+.ingressos:hover {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Btn Entrar */
+@media screen and (max-width: 1920px) {
+    .entrar {
+        font-weight: bold;
+        font-size: large;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        color: white;
+        background-color: blueviolet;
+        position: absolute;
+        left: 85%;
+        top: 10%;
+        transform: translate(-80%, -10%);
+    }
+}
+
+.entrar:hover {
+    font-weight: bolder;
+    color: blueviolet;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
 }
